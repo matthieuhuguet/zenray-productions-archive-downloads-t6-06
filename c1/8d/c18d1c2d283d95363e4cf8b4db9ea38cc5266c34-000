@@ -1,0 +1,9 @@
+﻿Name,Tags
+Dialogue System,
+"Unreal Best Practice fix up redirectors
+Utilise Collapsed Plutôt que Hidden",
+"Au lieu d’utiliser une BFL pour gérer le HUD il vaut mieux utiliser le GameMode ou Utiliser un PlayerManager, mais ne pas passer par BFL",
+"
+la BFL, la fonction devrait uniquement récupérer cette référence et la rendre disponible, sans ajouter de logique de gestion de données ou d'état de jeu.",
+Demander qu’il m’explique comme si j’avais 8 ans et qu’il incarnait tel personnage marche bien ChatGPT,
+Direct X résout les problèmes sur Unreal ? Oui direct X 11 par contre il faudrait voir ce que je perds comme avantages visuels.,
