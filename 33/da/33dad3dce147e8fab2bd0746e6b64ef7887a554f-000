@@ -1,0 +1,1 @@
+# la BFL, la fonction devrait uniquement récupérer cette référence et la rendre disponible, sans ajouter de logique de gestion de données ou d'état de jeu.
