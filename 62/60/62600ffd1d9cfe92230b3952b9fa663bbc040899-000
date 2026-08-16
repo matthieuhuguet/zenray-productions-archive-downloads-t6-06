@@ -1,0 +1,9 @@
+# Comment afficher un print string
+
+Created: December 28, 2024 10:47 PM
+
+| **Méthode** | **Affiche où ?** | **Avantages** |
+| --- | --- | --- |
+| `UE_LOG` | Console | Idéal pour des logs détaillés et permanents. |
+| `GEngine->AddOnScreenDebugMessage` | Écran uniquement | Simple à utiliser, mais moins flexible. |
+| `UKismetSystemLibrary::PrintString` | Écran et console | Personnalisable (durée, couleur, etc.). |
