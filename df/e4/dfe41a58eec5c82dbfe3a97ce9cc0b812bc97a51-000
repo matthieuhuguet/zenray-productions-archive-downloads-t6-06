@@ -1,0 +1,157 @@
+# AI Agent LinkedIn - Mode Elite (Executor: Cursor AI)
+
+## Mission
+Automatisation intégrale, séquentielle et ultra-rigoureuse du cycle de vie des posts LinkedIn pour ZenRay. L'agent (Cursor AI) interprète ce protocole et exécute les opérations système pour transformer un concept en un set d'assets "Elite" prêts à la publication.
+
+## Workflow Séquentiel
+
+```mermaid
+graph TD
+    Start["Start: Input Nom du Projet"]
+    Setup["1. Setup Arborescence (YYYY-MM/...)"]
+    Template["2. Génération POST_LINKEDIN.md (Template Elite)"]
+    Collect["3. Acquisition & Séquençage Intelligent"]
+    Vision["4. AI Vision Check (Crop Guard & OCR)"]
+    Magick["5. Magick: Elite Asset Processing (Subtitles & Branding)"]
+    FFmpegGIF["6. FFmpeg: Vidéo -> GIF (High-Res, < 5MB)"]
+    Verify["7. Vérification Zero Defect (Filesize, Proactive Fix)"]
+    Open["8. Ouverture & Sync (Portfolio)"]
+
+    Start --> Setup
+    Setup --> Template
+    Template --> Collect
+    Collect --> Vision
+    Vision --> Magick
+    Magick --> FFmpegGIF
+    FFmpegGIF --> Verify
+    Verify --> Open
+```
+
+---
+
+### ÉTAPE 1 : Setup Arborescence & Naming
+- **Logique de Dossier** : 
+    - Racine : `A:\Create\Build\PortfolioShare\`
+    - Structure : `[YYYY-MM]\[YYYY-MM-DD]_[ProjectName]` (ex: `2026-01\2026-01-20_HoudiniScattering`)
+- **Sous-Dossiers Obligatoires** :
+    - `raw/` : Stockage des assets sources bruts.
+    - `export/` : Stockage des assets finaux traités.
+
+### ÉTAPE 2 : Génération du Content (Template Elite)
+L'IA doit utiliser cette structure rigoureuse pour la génération de `POST_LINKEDIN.md`. Toujours viser un résultat **Elite** : bilingue, orienté **Problème/Solution** et **Résultat**.
+
+#### Structure du Template Généraliste :
+1.  **Titre & Pitch** : `[Titre court et descriptif]` + `“One-line pitch”`.
+2.  **Accroche Contexte** : `[Phrase d’ouverture : subject-line pitch]`.
+3.  **Bloc de Sequentialité (3-6 points)** : 
+    - Accroche contexte / Douleur identifiée.
+    - Conseil technique / Solution apportée.
+    - Description séquentielle des étapes clés.
+4.  **Optimisation** : Ce que l'on gagne (VRAM, temps, draw calls).
+5.  **CTA (Call to Action)** : Phrase de clôture légère (vendre ou interagir).
+6.  **Hashtags** : Précis, 4 minimum, 8 maximum.
+
+---
+
+#### Exemple de référence (RGB Masking Workflow) :
+> **Intro to RGB Masking Workflow in UE5.**
+> *The goal: Create a Master Material capable of handling complex blends without heavy unique textures (1 draw call).*
+> 🔹 **Input**: A simple RGB Mask generated with Substance.
+> 🔹 **Process**: Blending Materials via the graph. Use World Aligned for perfect texel density.
+> 🔹 **Optimization**: StaticSwitchParameter to clean up GPU instructions.
+> *This approach saves VRAM while adding variations directly from Mesh input.*
+> **Image of the setup below ⬇️**
+> #UnrealEngine #TechArt #Shader #Gamedev
+
+---
+
+#### Template à injecter (Bilingue Elite) :
+
+**--- VERSION FRANÇAISE ---**
+**[Titre]**
+**[One-line Pitch]**
+**[Subject-line Pitch]**
+
+[Accroche : Quel problème résolvons-nous ?]
+
+🔹 **Le Workflow** :
+1. [Étape 1]
+2. [Étape 2]
+3. [Étape 3]
+
+🔹 **La Touche Tech** : [Houdini/UE5/VEX...]
+🔹 **L'Optimisation** : [Gain de temps, VRAM, performance...]
+
+[Appel à l'action / CTA]
+
+**--- ENGLISH VERSION ---**
+**[Title]**
+**[One-line Pitch]**
+**[Subject-line Pitch]**
+
+[Opening Hook: Context and Problem]
+
+🔹 **The Workflow**:
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
+
+🔹 **Tech Stack**: [Houdini/UE5/VEX...]
+🔹 **Optimization**: [Gain, VRAM, Performance...]
+
+[Call to Action / CTA]
+
+#Hashtag1 #Hashtag2 #Hashtag3 #Hashtag4
+
+---
+
+### ÉTAPE 3 : Acquisition & Séquençage Intelligent
+- **Sources** : `C:\Users\matth\Pictures\Screenshots` | `C:\Users\matth\Downloads`.
+- **Action** : Copier les fichiers vers `raw/`.
+- **Séquençage Elite (Analyse AI)** : L'IA analyse le contenu pour proposer l'ordre optimal L'utilisateur peut aussi proposer sa propre structure type img1 = ... img2 = ... accorder le sous titres en fonction toujours de l'input de l'utilisateur en priorité être dynamique :
+    1.  **Slide 1** : Titre (Canvas ou Render "Hero").
+    2.  **Slide 2** : Le Node Graph (Preuve d'expertise).
+    3.  **Slides 3-5** : Détails techniques / Breakdowns.
+    4.  **Slide Finale** : Rendu "Emotion" + CTA.
+
+### ÉTAPE 4 : AI Vision Check (Crop Guard & OCR)
+**AVANT tout traitement**, l'IA doit analyser les images :
+- **OCR** : Détection de texte critique en bas de l'image.
+- **Crop Guard** : Si la légende masque un élément crucial, l'IA décale l'offset ou réduit dynamiquement la `pointsize`. AI Vision Check L'IA doit analyser si le sous titres correspond à l'img sinon elle doit adapter d'elle même le titre et le signaler à l'utilisateur.
+
+### ÉTAPE 5 : Magick - Elite Asset Processing (Subtitles & Branding)
+Toutes les images utilisent la même logique de **Sous-Titraille Elite** :
+- **Background** : Image `raw/` OU `canvas:black` (1080x1080) pour la première slide.
+- **Position** : `Gravity South`, offset `+0+80` (en bas au milieu).
+- **Style** : Texte Blanc, **Drop Shadow** Tu dois appliquer un 'Drop Shadow' qui reproduit exactement ces paramètres Photoshop : Spread 0px, Distance 0px, Taille 10 à 30px en fonction de la taille de la font, Opacité 100%, couleur Noir. Applique un drop shadow ImageMagick avec -shadow 100x{SIGMA}+0+0 (Ombre portée diffuse classe). Calcul Sigma en fonction de la taille de la font.
+- **Multiline** : Utilisation de `caption:` pour retour à la ligne automatique (max 3-5 mots/ligne).
+- **Ombre** : `( +clone -background black -shadow 80x5+10+10 ) +swap -background none -layers merge +repage`.
+
+---
+
+### ÉTAPE 6 : FFmpeg - GIF High-Res (< 5MB)
+- **Résolution** : 1024px minimum.
+- **Fix Proactif** : Si le GIF généré > 5MB, l'IA le régénère immédiatement avec `scale=800` ou `fps=10` sans demander. Si toujours > 5MB définir les métadonnées à compresser avant de lancer la prochaine commande.
+- **Ligne de commande Elite** :
+```powershell
+ffmpeg -y -i [input] -vf "fps=12,scale=1024:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=256[p];[s1][p]paletteuse" [output]
+```
+
+### ÉTAPE 7 : Vérification "Zero Defect" & Proactivité
+Avant d'ouvrir le dossier, l'IA effectue un check final :
+- **Files Presence** : Toutes les images listées dans le `.md` ont leur version `export/`.
+- **Visual Audit** : Lisibilité de la police GT Ultra Fine sur tous les fonds.
+- **Fix** : Si un asset est raté, l'IA le relance avec des paramètres corrigés.
+
+### ÉTAPE 8 : Finalisation, Ouverture & Sync
+- **Command** : `explorer.exe [chemin_export]`.
+- **Portfolio Sync** : L'IA propose de mettre à jour `A:\Create\Build\Memory\04Projects\PORTFOLIO.md` avec le nouveau projet.
+
+---
+
+## Configuration & Ressources
+- **Font** : `A:\Create\Build\Memory\00Core\Assets\GT-Ultra-Fine-Black.ttf`
+- **Source Assets** : `C:\Users\matth\Pictures\Screenshots` | `C:\Users\matth\Downloads`
+
+## Maintenance
+Dernière mise à jour : 2026-01-20 - Version Elite AI v5.0 (V1 Complète & Validée)
