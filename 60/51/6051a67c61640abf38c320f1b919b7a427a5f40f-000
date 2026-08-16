@@ -1,0 +1,104 @@
+# 2 Mars 2026
+
+resident evil sept biohazard
+
+Pour Avoir une MAP de subsurface Scattering. Height (invert) > Normal canal B (invert) > Base Color (desaturate + invert).
+
+On peut utiliser select color pour enlever les pixels blancs d’une texture et jouer avec Filter pour enlever la bordure.
+
+Utiliser un maximum whisper flow et boot bios hyper v pour avoir claude cowork
+
+Se fixe avec filter other minimum.
+
+Problème arbre opaque.
+
+![image.png](2%20Mars%202026/image.png)
+
+![image.png](2%20Mars%202026/image%201.png)
+
+Retenir cutout
+
+![image.png](2%20Mars%202026/image%202.png)
+
+![Capture d'écran 2026-03-02 145205.png](2%20Mars%202026/Capture_dcran_2026-03-02_145205.png)
+
+Guide pour générer l’arbre bayou
+
+[SpeedTree_BaldCypress_Guide](2%20Mars%202026/SpeedTree_BaldCypress_Guide%20317d4ee179c38005a20ec5a6d3b8a6e4.md)
+
+Water Ripples
+
+Swamp Tree via SpeedTree …
+
+Faire le BP Qui transform les éléments …
+
+Check List des plugins pour enviro UE5
+
+Agent
+
+Dynamic Sky
+
+Récupération de la souris et bayou dès le matin ça va être cool j’essaie de me lever vers 10h et je vais à la salle vers 16h pour pas fini trop tard et avoir une pause je mange rapidement le midi et je me fais 2 thé sencha. let’s go.
+
+Faire un breakdown de caméra sur les choses qui se modifie ?
+
+![20E70C~1.JPG](2%20Mars%202026/20E70C1.jpg)
+
+![20C2A8~1.JPG](2%20Mars%202026/20C2A81.jpg)
+
+Bayou Full Day Music Lofi Chill / Kotringo. 
+
+Faire des breakdown avec ma voix / wizix : peut être reprendre le template de Matthieu ou juste tenter ?
+
+En tout cas resident evil 9 incroyable.
+
+*Chaque mois sans asset publié élargit l'écart. Chaque asset publié le réduit.*
+
+**La stratégie la plus rentable sur 6 mois :** Ship agressivement (1-2 assets/mois minimum sur ArtStation), prends chaque mission freelance qui se présente même hors jeu vidéo (archviz, événementiel, simulation industrielle — Houdini + UE5 c'est demandé partout), et documente tout en breakdown. Le freelance hors gaming paie souvent mieux et les clients sont moins exigeants sur le CV. Ça finance le Japon ET ça remplit le portfolio.
+
+**YouTube/personal brand :** Honnêtement, c'est un piège de procrastination déguisé en stratégie à ton stade. Un breakdown ArtStation de 2 minutes a plus d'impact qu'une chaîne YouTube à 47 abonnés qui t'a coûté 200 heures de montage. Le personal brand vient APRÈS avoir quelque chose à montrer, pas avant.
+
+**Studio, quand ?** Quand tu auras 10+ pièces portfolio solides et/ou un shipped title indie. À ce moment-là tu postules en position de force, pas en position de demandeur. Ou mieux : un lead te contacte parce qu'il a vu ton travail. C'est ça le vrai objectif.
+
+Chaque jour (en semaine) je commence ma journée par lancer OBS. youtube side / artstation side.
+
+## Idées — IA & Automatisation
+
+- Consultant IA — automatisation de sa propre activité
+- Lancer un service d'automatisation
+- Créer des produits digitaux
+- Créer des skills personnalisés
+- Création de contenu
+
+## Skills personnalisés Claude — Notes
+
+### C'est quoi un skill ?
+
+Un skill = un fichier `.md` avec un bloc YAML en en-tête qui définit **quand** Claude doit le charger automatiquement.
+
+```yaml
+---
+name: substance-designer
+description: Utiliser quand Matthieu demande de l'aide sur Substance Designer,
+             la création de textures procédurales, les nœuds, le tiling...
+---
+```
+
+Claude lit toutes les `description` en permanence → charge uniquement le skill pertinent selon la situation. Contrairement à un `CLAUDE.md` unique (toujours chargé), les skills sont **sélectifs** : seul le bon se charge au bon moment.
+
+### Différence skill vs [CLAUDE.md](http://CLAUDE.md)
+
+- `CLAUDE.md` → faits et contexte général, toujours en mémoire
+- Skill → **procédure de travail** sur un sujet précis, chargé à la demande
+- Un skill peut aussi inclure des scripts Python exécutables (validation, renommage, pipeline)
+
+### Cas d'usage concrets (Tech Artist 3D)
+
+- **Houdini** : conventions VEX, structure node networks, paramètres HDA standards
+- **Substance Designer** : workflow 100% 2D, règles PBR, nœuds préférés pour le tiling
+- **UE5** : naming conventions, Material Layers, config post-processing
+- **Prospection** : contexte Zenray, cibles studios, tarifs, formats livrables
+
+### Comment installer un skill
+
+Les skills fonctionnent dans **Claude Code** (CLI) ou **Claude Cowork** — pas dans [claude.ai](http://claude.ai). Il faut créer le fichier `.md` avec la bonne structure et le placer dans le bon dossier pour qu'il soit détecté automatiquement.
