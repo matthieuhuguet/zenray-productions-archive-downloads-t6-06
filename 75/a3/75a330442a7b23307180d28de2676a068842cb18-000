@@ -1,0 +1,6 @@
+# Rock Sculpting
+
+FR :
+Sculpt de rochers dans Houdini — Approche Point VOP
+Petit breakdown de mon workflow procédural pour les rochers. Point VOP avec des multiplicateurs faibles (<0.1) pour un déplacement contrôlé. Mesh de base : cube → VDB from poly → smooth → convert. Setup simple, facile à itérer.
+#Houdini #ProceduralModeling #TechArt #3D #Rocks
