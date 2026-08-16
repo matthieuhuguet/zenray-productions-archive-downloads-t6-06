@@ -1,0 +1,36 @@
+# QtCaptureScreen
+
+### **Étapes Optimisées pour Compiler `QtScreenCapture`**
+
+### **1. Pré-requis**
+
+- **CMake** : Pour automatiser la configuration et la compilation. .txt
+- **Qt (6.8.1 recommandé)** : Bibliothèques Qt pour gérer l'interface graphique.
+- **Visual Studio 2022** ou un compilateur C++ compatible avec Qt.
+- vcpk
+- windeployement
+- désactiver la console lors de l’exec.
+
+```jsx
+# Ajouter une commande post-build pour exécuter windeployqt
+if(WIN32)
+    add_custom_command(TARGET QtScreenCapture POST_BUILD
+        COMMAND "${CMAKE_PREFIX_PATH}/bin/windeployqt.exe" "$<TARGET_FILE:QtScreenCapture>"
+        COMMENT "Deploying Qt runtime dependencies using windeployqt"
+    )
+endif()
+# Désactiver la console
+set_target_properties(QtScreenCapture PROPERTIES WIN32_EXECUTABLE TRUE)
+```
+
+[CMakeLists.txt](QtCaptureScreen/CMakeLists.txt)
+
+[main.cpp](QtCaptureScreen/main.cpp)
+
+CMD pour build up 
+
+rmdir /S /Q build
+
+cmake -S . -B build -G "Visual Studio 17 2022" -A x64
+
+cmake --build build --config Release
