@@ -1,0 +1,15 @@
+# EventDispatched AttackClicked
+
+Status: Not started
+
+Dans le widget on met un call
+
+Dans le BattleManager on fait en sorte d’attendre une réponse. et le create event c’est juste car l’autre event existe déjà mais en soit on pourrait aussi mettre deux Custom Event c’est juste plus propre.
+
+![image.png](EventDispatched%20AttackClicked/image.png)
+
+![image.png](EventDispatched%20AttackClicked/image%201.png)
+
+En fait on crée un message en cliquant, et le BattleManager le reçoit 
+
+Le *BattleManager* reçoit donc l’événement **sans mettre de logique dans le widget**.
