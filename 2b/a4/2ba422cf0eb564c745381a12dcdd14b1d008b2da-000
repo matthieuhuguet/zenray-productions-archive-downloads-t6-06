@@ -1,0 +1,12 @@
+﻿Asset,Modeling (Houdini),Texturing (Substance),Shader (Unreal),Completed,Priority,Notes
+Grass,DONE,DONE,DONE,YES,HIGH,Procedural system VAT 3.0
+Alligator,DONE,DONE,DONE,YES,LOW,ZBrush
+ChurchStairs,DONE,TODO,TODO,NO,MED,
+ChurchMain,DONE,TODO,TODO,NO,MED,Needs wood texture
+ChurchEntrance,DONE,TODO,TODO,NO,MED,Match ChurchMain style
+Trees,DONE,TODO,TODO,NO,MED,SpeedTree bark + leaf tex
+Ground,DONE,TODO,TODO,YES,MED,Needs mud/dirt detail
+WaterGround,DONE,TODO,TODO,YES,HIGH,Underwater ground visible
+TreeStump,DONE,DONE,DONE,YES,LOW,Bark texture needed
+Fern,DONE,DONE,DONE,YES,LOW,Functional needs polish
+Palmetto,DONE,TODO,TODO,NO,LOW,Functional needs polish
