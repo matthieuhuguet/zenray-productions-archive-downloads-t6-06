@@ -1,0 +1,37 @@
+# POST_LINKEDIN
+
+# Houdini Procedural Selection: Group Bounding + Carve (Toki Pavillion)
+
+“If you click-select points, your setup will break.”
+
+In Houdini, I keep two rules to stay 100% procedural (and HDA-ready):
+
+🔹 **Workflow**
+- **Group Bounding + Blast**: select by space (a box), not by point IDs. Perfect to target newly generated grid points, then delete them cleanly.
+- **Carve (Curves)**: trim a curve section with **First U / Second U** (0–1). Even after a `Match Size` or “hard” parameters, the trim stays procedural and scalable.
+- **Carve outputs**: use **Extract** + **Keep Inside/Outside** to output either the trimmed segment or its complement. Use **Cut** when you need to split at the U positions.
+
+**st (GIF - EN, center panel)**
+- Group Bounding: auto-select new grid points in the box, then Blast deletes them.
+- Carve: select a curve section (First/Second U) to control length procedurally.
+
+ーーーーーーーー
+
+**— VERSION FRANÇAISE —**
+# Sélection procédurale dans Houdini : Group Bounding + Carve (Toki Pavillion)
+“Si tu sélectionnes des points à la main, ton setup va casser.”
+
+Deux réflexes simples pour rester 100% procédural (et prêt HDA) :
+
+🔹 **Workflow**
+- **Group Bounding + Blast** : sélection par l’espace (une box), pas par IDs. Idéal pour cibler des points nouvellement générés par une grille, puis les supprimer proprement.
+- **Carve (Courbes)** : découpe une section de courbe via **First U / Second U** (0–1). Même après un `Match Size` ou des paramètres “durs”, la coupe reste procédurale et scalable.
+- **Outputs Carve** : **Extract** + **Keep Inside/Outside** pour sortir soit le segment découpé, soit le reste. **Cut** si tu veux scinder exactement aux positions U.
+
+**st (GIF - FR, panneau central)**
+- Group Bounding : sélection auto des nouveaux points dans la box, puis Blast les supprime.
+- Carve : sélection d’une section de courbe (First/Second U) pour contrôler la longueur.
+
+ーーーーーーーー
+
+#Houdini #HoudiniFX #Procedural #TechArt #VEX #UnrealEngine #EnvironmentArt #Workflow
