@@ -1,0 +1,31 @@
+# Architecture de la Mémoire Augmentée (OpenClaw & Agents IA)
+
+## Principe Fondamental
+
+La mémoire d'un agent IA ne doit pas être limitée par la fenêtre de contexte du LLM. Elle doit être externalisée, structurée, et accessible via un processus de Recherche > Synthèse.
+
+## Système à Deux Niveaux
+
+### Niveau 1 : Mémoire de Travail (Contexte de Session)
+
+- Rôle : Gérer la conversation active et le contexte immédiat.
+- Mécanisme : Compaction automatique de contexte par OpenClaw pour éviter le dépassement de la limite de tokens.
+
+### Niveau 2 : Mémoire à Long Terme (La Bibliothèque)
+
+- Rôle : Stocker de manière permanente l'ensemble des connaissances.
+- Mécanisme : Recherche sémantique (vectorielle) dans les sources de données, suivie de l'injection des seuls extraits pertinents dans le contexte.
+
+## Sources de Données Actuelles et Futures
+
+- [x]  Fichiers locaux OpenClaw (MEMORY.md, USER.md, etc.) - ACTIF
+- [x]  Base de données Notion 'February2026' (logs journaliers) - ACTIF
+- [ ]  Dépôt GitHub `zenray-memory` (connaissances structurées) - À INTÉGRER
+- [ ]  Conversations WhatsApp/LinkedIn importantes (via archivage) - À DÉFINIR
+- [ ]  Google Drive (documents, transcriptions) - À DÉFINIR
+
+## Plan d'Action
+
+1. Confirmer l'emplacement et le contenu du dépôt `zenray-memory` sur le Mac.
+2. Mettre en place un script d'indexation qui scanne toutes les sources de données et les prépare pour la recherche sémantique.
+3. Intégrer l'outil `memory_search` pour qu'il puisse interroger ce nouvel index unifié.
