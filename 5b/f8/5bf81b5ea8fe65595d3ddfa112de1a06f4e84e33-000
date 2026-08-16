@@ -1,0 +1,302 @@
+# Rapport_96_Competences_Matthieu_Zenray
+
+**RAPPORT DE PRIORITES**
+
+96 COMPETENCES CRUCIALES A DEVELOPPER
+
+Matthieu Huguet — Zenray
+
+*Technical Artist & Procedural Storyteller*
+
+31 mars 2026
+
+*Analyse complète des angles morts identifiés à partir de la mémoire intégrale,
+du diagnostic ARC I, et des patterns comportementaux documentés.*
+
+Généré par Claude × Anthropic
+
+**SYNTHESE EXECUTIVE**
+
+Ce rapport est le résultat d'une analyse exhaustive de l'intégralité de ta mémoire : identité, valeurs, vision, plans, workflows, lessons learned, daily logs, et le diagnostic ARC I du 30 mars 2026. Il identifie 96 compétences classées par ordre de priorité absolue pour ta situation actuelle.
+
+**Le diagnostic en 5 phrases**
+
+Tu as un skillset technique rare (Houdini/UE5/VEX/Substance/VAT) que la majorité des seniors n'ont pas à 25 ans. Tu as une visibilité LinkedIn non-négligeable (5000 vues/post dans une niche technique). Mais tu as zéro client payant, zéro mission terminée, zéro preuve de marché. La cause racine est un évitement systématique de l'action commerciale directe, déguisé en productivité technique (side-projects, outils, GDD). Ce rapport transforme chaque angle mort identifié en compétence actionable, classée par urgence.
+
+**Échelle de priorité**
+
+| **Niveau** | **Quantité** | **Définition** |
+| --- | --- | --- |
+| **CRITIQUE** | **12** | Bloque directement les revenus. À travailler CETTE SEMAINE. Chaque jour de retard coûte de l'argent. |
+| **HAUTE** | **26** | Impacte fortement la trajectoire. À développer dans les 30 prochains jours. |
+| **MOYENNE** | **30** | Améliore significativement l'efficacité. À intégrer dans les 3 prochains mois. |
+| **NORMALE** | **28** | Enrichit le profil long terme. À développer progressivement sur 6-12 mois. |
+
+**Répartition par catégorie**
+
+Business & Acquisition : 19 compétences. C'est le bloc le plus massif parce que c'est ton angle mort le plus large. Tu as 0 compétence commerciale prouvée.
+
+Tech Art & Programmation : 22 compétences. Ton socle existant est solide, ces compétences l'élargissent.
+
+Psychologie & Discipline : 12 compétences. Les patterns d'évitement, la peur du rejet, le perfectionnisme. Le soft qui conditionne le hard.
+
+Social & Communication : 10 compétences. L'isolement est ton ennemi silencieux. Chaque compétence sociale débloquée amplifie tout le reste.
+
+Santé & Équilibre : 7 compétences. Le sommeil, le sport, la gestion du stress. Les fondations biologiques de la performance.
+
+Juridique & Finance : 6 compétences. Devis, contrats, comptabilité, visa. Le boring qui te protège.
+
+Langues & Développement : 8 compétences. Anglais pro, japonais, lecture appliquée, culture stratégique.
+
+Productivité & Outils : 6 compétences. Automatisation, IA, systèmes de travail.
+
+Game Dev & Vision : 6 compétences. Le jeu magistral, Toki Pavilion, la DA Zenray. Vision long terme.
+
+**TIER 1 — LES 32 COMPETENCES CRUCIALES**
+
+Ces compétences sont classées par ordre de priorité absolue pour ta situation du 31 mars 2026. Les 12 premières sont marquées CRITIQUE : elles conditionnent directement l'obtention de ton premier euro en freelance.
+
+**A. Acquisition & Business (1-10)**
+
+*C'est ici que tout se joue. Tu as le produit (toi), tu as la vitrine (LinkedIn, ArtStation). Il manque la caisse enregistreuse.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **1** | **Prospection directe (cold outreach)** | **CRITIQUE** | *Business* | Ton angle mort #1. Tu as 0 client, 0 euro, 0 mission. Envoyer des messages LinkedIn/email aux studios est le seul acte qui peut changer ta situation financière. Sans prospection, tout le reste est hypothétique. Tu as le skill technique mais tu n'as jamais converti en argent. |
+| **2** | **Communication commerciale** | **CRITIQUE** | *Business* | Le message Guillaume Broche (250 mots, posture fan, travail gratuit) est la preuve que tu ne sais pas encore parler en pro. Un message efficace = 40 mots : compliment, preuve, question. C'est une compétence qui se learn en une session mais qui change tout. |
+| **3** | **Gestion de la peur du rejet** | **CRITIQUE** | *Psychologie* | Le diagnostic du 30 mars est limpide : chaque side-project est une procrastination déguisée. Tu prépares indéfiniment pour ne pas affronter la possibilité qu'on te dise non. Or un silence n'est pas un rejet. Et un rejet n'est pas une condamnation. |
+| **4** | **Pricing & positionnement tarifaire** | **CRITIQUE** | *Business* | Tu as fixé un TJM à 350 EUR mais tu n'as aucune expérience de négociation. Tu ne sais pas quand monter, quand baisser, quand proposer un forfait vs un TJM. Un mauvais pricing peut te décrédibiliser autant qu'un bon pricing te positionne. |
+| **5** | **Pipeline de vente & suivi CRM** | **HAUTE** | *Business* | Sans tracker systématique (messages envoyés / réponses / relances / calls / devis), tu perds le fil. Ton Google Sheet avec KPI est un bon début mais il doit devenir un réflexe hebdomadaire, pas un artefact théorique. |
+| **6** | **Rédaction de devis & contrats freelance** | **HAUTE** | *Juridique* | Quand le premier client dira oui, tu dois avoir un devis prêt dans l'heure. Conditions de paiement, livrables, délais, clauses de révision, cession de droits. Sinon tu perds le momentum ou tu te fais avoir. |
+| **7** | **Relance & follow-up structuré** | **HAUTE** | *Business* | 80% des deals se concluent après la relance. Un message envoyé sans relance est un message gaspillé. Il te faut un système (J+3 relance courte, J+7 relance avec visuel, J+14 dernière relance). |
+| **8** | **Closing : transformer un call en mission** | **HAUTE** | *Business* | Quand tu auras un call avec un Art Director, tu devras guider la conversation vers un engagement concret. Ce n'est pas une tchat entre fans, c'est une réunion de qualification : quel est le besoin, quel est le budget, quel est le timing. |
+| **9** | **Personal branding LinkedIn** | **HAUTE** | *Marketing* | Tu as 5000 vues par post, c'est énorme pour ta niche. Mais tes posts sont techniques sans CTA. Il faut que chaque post rappelle que tu es disponible en freelance et montre un résultat visuel fort. |
+| **10** | **Portfolio comme outil de conversion** | **HAUTE** | *Marketing* | Ton portfolio (ArtStation + site Zenray) doit être un argumentaire commercial, pas une galerie d'art. Chaque pièce doit répondre à la question : ce freelance peut-il résoudre MON problème ? |
+
+**B. Exécution & Discipline (11-18)**
+
+*Le talent sans discipline est un feu d'artifice : spectaculaire mais éphémère. Ces compétences transforment tes bonnes intentions en résultats mesurables.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **11** | **Focus & élimination des side-projects** | **CRITIQUE** | *Discipline* | Le diagnostic ARC I est clair : Zenray Studio, GDD, UIDisplay, Houdini MCP sont gelés 3 mois. L'énergie doit aller à 100% vers portfolio visible + prospection. La capacité à dire non aux projets excitants mais non-essentiels est probablement ta compétence la plus difficile à acquérir. |
+| **12** | **Ship > Perfect (livrer à 80%)** | **CRITIQUE** | *Discipline* | Tu as identifié le perfectionnisme bloquant comme défaut #1. Le Bayou doit sortir même à 80%. Chaque jour de polish supplémentaire est un jour sans prospection. La perfection est l'ennemie du revenu. |
+| **13** | **Routine de prospection ritualisée** | **CRITIQUE** | *Discipline* | 5 messages chaque lundi matin, non-négociable. Comme le sport le matin. La prospection n'est pas une tâche ponctuelle, c'est un rituel hebdomadaire permanent tant que tu n'as pas un flux de clients régulier. |
+| **14** | **Gestion du temps : blocs 90/20 appliqués au business** | **HAUTE** | *Discipline* | Tes blocs 90/20 sont bien conçus pour le travail technique mais tu ne les appliques jamais au travail commercial. Un bloc de 90 min dédié à la prospection chaque lundi changerait tout. |
+| **15** | **Respect du sommeil comme KPI #1** | **HAUTE** | *Santé* | Tu l'as écrit toi-même : le sommeil détermine 80% de l'énergie. Couché à 22h, levé 6-7h. Mais les nuits où tu codes jusqu'à 2h du matin existent encore. Le sommeil n'est pas négociable, surtout en phase de prospection où la clarté mentale est cruciale. |
+| **16** | **Sortir de l'isolement (social proactif)** | **CRITIQUE** | *Social* | Seules sorties = restaurant mère/grand-mère. Pas de collègues, clients, pairs. L'isolement amplifie les doutes, crée une boucle mentale négative. Coworking 1x/semaine, meetups tech/gaming, réseaux physiques à Aix ou Marseille. |
+| **17** | **Anti-procrastination : détecter les faux progrès** | **HAUTE** | *Psychologie* | Coder un outil d'outreach au lieu de prospecter. Lire un livre business au lieu d'envoyer un message. Écouter un podcast Hormozi au lieu d'agir. Tu connais ces patterns. La compétence c'est de les détecter EN TEMPS RÉEL, pas après coup. |
+| **18** | **Gestion émotionnelle face au silence** | **HAUTE** | *Psychologie* | Un message ignoré = 'pas le bon moment', pas 't'es nul'. Tu dois construire un blindage émotionnel qui te permette d'encaisser 25 silences pour obtenir 5 réponses pour signer 1 mission. C'est un jeu de volume, pas de jugement. |
+
+**C. Technique Appliquée au Marché (19-26)**
+
+*Ton skill technique est ton avantage compétitif. Ces compétences le transforment de 'impressionnant à montrer' en 'impossible à ignorer pour un client'.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **19** | **Breakdowns visuels de projets** | **HAUTE** | *Tech Art* | Un breakdown de ton grass system (avant/après, wireframe, nodes) vaut 10x plus qu'un rendu final seul. Les Art Directors veulent voir le process, pas juste le résultat. C'est ce qui te différencie d'un artiste qui achète des assets. |
+| **20** | **Vitesse d'exécution (time-boxed projects)** | **HAUTE** | *Tech Art* | Le marché freelance valorise la rapidité autant que la qualité. Un env artist qui livre en 3 jours ce que d'autres font en 2 semaines est plus valuable. Pratique le speed-project : une scène complète en 48h. |
+| **21** | **HDA productisable pour la vente** | **HAUTE** | *Tech Art* | Tu as installé Houdini Engine for UE5, tu as le pipeline grass system. Packager tes outils en HDA vendables sur FAB/Gumroad est un levier de revenus passifs. Mais seulement APRÈS le premier client freelance. |
+| **22** | **Documentation technique lisible** | **MOYENNE** | *Tech Art* | Quand tu livreras à un client, il voudra comprendre ton pipeline. Ta documentation VEX est complète mais orientée apprentissage, pas livrables client. Adapter la doc pour un Art Director non-technique. |
+| **23** | **Pipeline optimisé UE5 (livraison rapide)** | **MOYENNE** | *Tech Art* | Ton pipeline Houdini vers UE5 fonctionne mais tu passes du temps sur des bugs (HDR precision jitter, UV issues). Avoir un pipeline bulletproof réduit le time-to-delivery et augmente ta marge. |
+| **24** | **Lighting & composition de présentation** | **MOYENNE** | *Tech Art* | Tes rendus sont techniquement solides mais la présentation portfolio (angles de caméra, lighting dramatic, composition) peut transformer un bon asset en pièce portfolio qui arrête le scroll LinkedIn. |
+| **25** | **C++ pour UE5 (au-delà des Blueprints)** | **MOYENNE** | *Programmation* | Tu as mentionné être passé de PowerPoint à VEX et C++. Mais ta maîtrise C++ appliquée à UE5 (plugins, gameplay programmers) augmenterait significativement ton TJM et ta valeur perçue. |
+| **26** | **Veille technique ciblée (pas passive)** | **MOYENNE** | *Tech Art* | Rester au courant des nouvelles features UE5.7, Houdini 21, Nanite updates, sans tomber dans la consommation passive. 30 min/semaine de veille structurée avec un feed RSS/Twitter curé. |
+
+**D. Soft Skills & Développement Personnel (27-32)**
+
+*Les compétences invisibles qui conditionnent tout le reste. Le code de ta personnalité professionnelle.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **27** | **Anglais professionnel écrit (emails, calls)** | **HAUTE** | *Langue* | Tu es C1 mais l'anglais pro (emails de prospection, calls avec des Art Directors, négociation de contrats) demande un vocabulaire spécifique. Tu cibles des studios internationaux, l'anglais pro est non-négociable. |
+| **28** | **Japonais N3 (progression active)** | **MOYENNE** | *Langue* | Tu vises N2 fin 2026, tu es au N3 en cours. Les 10h/semaine prévues sont ambitieuses. Le japonais est un investissement long terme pour le Japon, mais ne doit pas cannibaliser les 80% prospection en ARC I. |
+| **29** | **Gestion du stress et de l'anxiété** | **HAUTE** | *Santé* | Tu as écrit 'il n'y a aucun bon stress' mais ta frustration ('quand l'argent va enfin tomber') montre que l'anxiété financière est réelle. La méditation, le sport, et un plan d'action concret sont les antidotes. |
+| **30** | **Networking physique (événements, coworking)** | **HAUTE** | *Social* | Le déclic vient de l'action sociale. Aix-en-Provence a des coworkings (La Coque, le Village by CA), Marseille a des meetups game dev. Un contact physique vaut 100 messages LinkedIn. |
+| **31** | **Auto-évaluation honnête (sans ego ni auto-flagellation)** | **MOYENNE** | *Psychologie* | Tu oscilles entre 'je suis un génie' et 'je suis blacklisté'. La réalité est entre les deux : tu as un skillset rare mais 0 preuve de marché. Rester lucide sur ce qui est vrai et ce qui est projection. |
+| **32** | **Discipline financière (comptabilité freelance)** | **HAUTE** | *Juridique* | Micro-entreprise ou SASU ? TVA ou pas ? URSSAF, CFE, charges sociales. Quand le premier euro tombe, tu dois savoir où il va. Sinon tu auras une surprise fiscale dans 12 mois. |
+
+**TIER 2 — LES 64 COMPETENCES SUIVANTES**
+
+Ces compétences sont essentielles pour ta trajectoire à moyen et long terme. Elles ne doivent PAS être travaillées avant d'avoir progressé significativement sur le Tier 1 — surtout les 12 CRITIQUES. L'ordre est indicatif : adapte en fonction de ta situation concrète.
+
+**E. Business Avancé (33-42)**
+
+*Phase 2 : une fois le premier client signé, ces compétences accélèrent la croissance.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **33** | **Upselling & cross-selling client existant** | **MOYENNE** | *Business* | Une fois le premier client signé, proposer des services additionnels (autre scène, outil HDA, consulting) est 5x plus facile que trouver un nouveau client. |
+| **34** | **Témoignages & social proof** | **MOYENNE** | *Marketing* | Après la première mission, demander un témoignage écrit ou vidéo. Un avis d'Art Director sur ton travail vaut plus que 10 posts LinkedIn. |
+| **35** | **Emailing : newsletter technique** | **NORMALE** | *Marketing* | Tu as mentionné 'liste email' dans tes priorités. Une newsletter hebdo courte sur tes techniques Houdini/UE5 construit une audience qualifiée. Mais après le premier client, pas avant. |
+| **36** | **Content marketing (breakdowns réguliers)** | **MOYENNE** | *Marketing* | 52 publications/an = 1/semaine. Chaque breakdown LinkedIn attire des leads inbound. Le contenu technique de niche a un ratio effort/impact excellent. |
+| **37** | **Négociation de conditions (paiement, délais, IP)** | **MOYENNE** | *Juridique* | 30% à la signature, 30% à mi-parcours, 40% à la livraison. Ne jamais démarrer sans acompte. Ne jamais céder tous les droits IP sans compensation. |
+| **38** | **Gestion de projet client (scope, timelines)** | **MOYENNE** | *Business* | Quand le client dit 'on voudrait aussi X', savoir si c'est dans le scope ou un avenant payant. Le scope creep est le tueur de marge #1 en freelance. |
+| **39** | **Plateformes freelance (Malt, CGHero, Upwork)** | **HAUTE** | *Business* | Créer des profils optimisés sur Malt (marché FR), CGHero (3D spécialisé), freelance-informatique.fr. Ces plateformes apportent des leads sans prospection active. |
+| **40** | **Présentation orale (pitch en call)** | **MOYENNE** | *Communication* | Un call de 15 min avec un Art Director exige de savoir présenter son travail en 2 min, poser les bonnes questions, et conclure par une action concrète. |
+| **41** | **Récurrence client & retainer** | **NORMALE** | *Business* | Le Graal freelance : un client qui te paie X EUR/mois pour être disponible Y jours. Ça se négocie après 2-3 missions réussies. |
+| **42** | **Diversification revenus (assets, formations)** | **NORMALE** | *Business* | HDA sur FAB, tutoriels payants, assets UE5 Marketplace. Ce sont des leviers sans permission (code + média) mais ils nécessitent du temps. Phase 2, pas Phase 1. |
+
+**F. Technique Avancée (43-58)**
+
+*Élargir ton arsenal technique pour augmenter ton TJM et ta valeur perçue.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **43** | **VEX avancé : solver custom & simulation** | **MOYENNE** | *Tech Art* | Tu maîtrises le VEX fondamental (noise, Voronoi, Bézier). Le niveau suivant : solvers custom, simulation interactive, post-processing avancé. |
+| **44** | **Niagara avancé pour UE5** | **MOYENNE** | *Tech Art* | Le VFX real-time est un différenciateur. Niagara + matériaux custom + vertex animation = portfolio qui sort du lot. |
+| **45** | **Substance Designer : matériaux procéduraux complexes** | **MOYENNE** | *Tech Art* | Tu utilises Substance pour le grass mais le potentiel est plus large : roches, bois, métal weathered. Chaque matériau procédural est un asset réutilisable et vendable. |
+| **46** | **World Partition & streaming UE5** | **NORMALE** | *Tech Art* | Pour des environnements open-world, la maîtrise du World Partition est attendue par les studios travaillant sur des jeux de cette envergure. |
+| **47** | **LOD & optimisation performance** | **MOYENNE** | *Tech Art* | Un env artist qui livre des scènes qui tournent à 60fps a plus de valeur qu'un artiste qui fait du beau mais du lourd. Profiler, optimiser, documenter les perfs. |
+| **48** | **PCG (Procedural Content Generation) UE5** | **NORMALE** | *Tech Art* | Le système PCG natif d'UE5 est devenu un standard. Le combiner avec tes HDAs Houdini te donne une stack unique. |
+| **49** | **Blueprint avancé (tools, editor utilities)** | **MOYENNE** | *Programmation* | Editor Utility Widgets en Blueprint pour accélérer le workflow des artistes. C'est exactement ce que les studios demandent à un Technical Artist. |
+| **50** | **Git & versioning en production** | **NORMALE** | *Programmation* | Git LFS pour les assets lourds, Perforce pour certains studios. Savoir travailler dans un environnement de version control est un prérequis en studio. |
+| **51** | **Python pour pipeline TD** | **MOYENNE** | *Programmation* | Scripts Python pour automatiser les exports, renommer les assets, valider les conventions. Le pipeline TD est un rôle adjacent au Tech Art très demandé. |
+| **52** | **Shader authoring (HLSL/Material Editor)** | **NORMALE** | *Tech Art* | Écrire des shaders custom dans UE5 (HLSL nodes, Material Functions) pour des effets que les nodes standards ne peuvent pas faire. |
+| **53** | **VAT (Vertex Animation Texture) pipeline complet** | **MOYENNE** | *Tech Art* | Tu as découvert et utilisé les VAT pour le grass. Étendre cette maîtrise à d'autres cas : destruction, fluides, cloth. C'est un skill rare. |
+| **54** | **Terrain & landscape tools UE5** | **NORMALE** | *Tech Art* | Landscape editing, spline-based roads, foliage painting. Compétences attendues pour tout env artist UE5. |
+| **55** | **Cinematic rendering (Sequencer, MRQ)** | **NORMALE** | *Tech Art* | Créer des cinématiques de qualité pour présenter ton travail portfolio. Movie Render Queue pour des rendus finaux propres. |
+| **56** | **Zbrush/modeling organique** | **NORMALE** | *3D Art* | Tu as suivi Mady Spencer. Le modeling organique complète ton profil tech art pour les éléments naturels (roches, troncs, racines). |
+| **57** | **Sound design basique (REAPER)** | **NORMALE** | *Audio* | Pour tes projets personnels et démos portfolio, ajouter du son spatial transforme l'expérience. Tu as déjà installé UVR5 et audio-separator. |
+| **58** | **Photogrammétrie & scan 3D** | **NORMALE** | *Tech Art* | Capturer des textures et meshes du monde réel. Utile pour les env réalistes et comme référence pour le procédural. |
+
+**G. Soft Skills & Développement Avancé (59-72)**
+
+*Les compétences qui transforment un bon technicien en professionnel complet.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **59** | **Écoute active en contexte pro** | **MOYENNE** | *Communication* | En call client, écouter plus que parler. Comprendre le vrai besoin derrière la demande. Tu as identifié l'écoute active comme valeur mais tu ne l'as jamais pratiquée en contexte commercial. |
+| **60** | **Feedback constructif (donner et recevoir)** | **MOYENNE** | *Communication* | Publier pour recevoir du feedback, et savoir critiquer le travail d'un collègue sans être blessant. Compétence sociale fondamentale en studio. |
+| **61** | **Gestion de l'énergie (pas du temps)** | **MOYENNE** | *Santé* | Tu sais que le sport le matin change tout. Mais tu ne gères pas encore ton énergie sur la semaine : jours intenses vs jours légers, synchronisation avec le cycle de sommeil. |
+| **62** | **Journaling structuré (pas brain dump)** | **NORMALE** | *Psychologie* | Tes memory files sont massifs mais désorganisés. Un journal quotidien de 5 min (3 réussites, 1 apprentissage, 1 priorité demain) serait plus actionable. |
+| **63** | **Méditation & mindfulness** | **NORMALE** | *Santé* | Tu l'as mentionnée dans tes objectifs mais tu ne la pratiques pas régulièrement. 10 min/jour de méditation réduit l'anxiété et améliore le focus. |
+| **64** | **Lecture appliquée (1 action par livre)** | **NORMALE** | *Développement* | Ta règle 'lire pour agir' est excellente mais The Psychology of Money et Meditations sont en queue depuis des mois. Mieux vaut lire 10 pages/jour et appliquer que planifier 50 livres. |
+| **65** | **Confiance physique & posture** | **MOYENNE** | *Social* | Le 'profil social solaire' que tu vises demande une présence physique assurée. Posture droite, contact visuel, poignée de main ferme. Le non-verbal représente 55% de la communication. |
+| **66** | **Networking international (Discord, X, communities)** | **NORMALE** | *Social* | Les communautés Houdini (SideFX forum, Houdini Artists), tech art (RealTimeVFX, Polycount), game dev (Discord Unreal Slackers) sont des viviers de contacts et d'opportunités. |
+| **67** | **Mentorat inversé (enseigner pour apprendre)** | **NORMALE** | *Développement* | Expliquer ton grass system VEX à un junior te force à structurer tes connaissances. C'est aussi un excellent content pour LinkedIn. |
+| **68** | **Résilience émotionnelle (post-rejet)** | **MOYENNE** | *Psychologie* | Quand un studio dira non, ou quand un client annulera. Tu dois avoir un protocole : accepter, analyser, ajuster, avancer. Pas ruminer. |
+| **69** | **Gestion administrative (factures, déclarations)** | **MOYENNE** | *Juridique* | Factures, déclarations URSSAF, CFE, TVA si applicable. C'est ennuyeux mais un retard fiscal est un stress évitable. |
+| **70** | **Ergonomie du poste de travail** | **NORMALE** | *Santé* | Tu passes 8-12h/jour devant un écran. Bureau debout/assis, écran à hauteur des yeux, chaise ergonomique. Investissement qui paie sur 10 ans de carrière. |
+| **71** | **Stratégie de contenu multi-plateforme** | **NORMALE** | *Marketing* | Le même breakdown peut être un post LinkedIn, un thread X, un reel Instagram, une vidéo YouTube. Multiplier les canaux sans multiplier l'effort. |
+| **72** | **Delegation & collaboration (trouver un co-équipier)** | **NORMALE** | *Business* | Tu as identifié le profil idéal : character artist/animator UE5. Trouver cette personne et savoir déléguer efficacement est une compétence de directeur, pas de technicien. |
+
+**H. Vision Long Terme (73-86)**
+
+*Le jeu magistral, Toki Pavilion, le Japon, la DA Zenray. Les compétences pour la décennie.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **73** | **Game design appliqué (prototypage rapide)** | **MOYENNE** | *Game Dev* | Toki Pavilion et le concept Ninja Mécanique existent en théorie. Prototyper un gameplay vertical slice en 2 semaines prouve plus qu'un GDD de 100 pages. |
+| **74** | **Procedural storytelling (coder des histoires)** | **MOYENNE** | *Game Dev* | C'est ta spécialisation déclarée. Mais tu n'as pas encore de démo jouable qui prouve le concept. Une scène interactive de 5 min vaut 50 pages de théorie. |
+| **75** | **Direction artistique (DA cohérente)** | **NORMALE** | *Art* | Tu as des références (FromSoftware, Sucker Punch, esthétique japonaise) mais tu n'as pas encore produit une DA originale cohérente qui soit reconnaissable comme 'Zenray'. |
+| **76** | **Narration environnementale** | **NORMALE** | *Game Dev* | Raconter une histoire uniquement par l'environnement, sans texte. C'est le standard FromSoftware que tu admires. Le prouver dans une scène portfolio. |
+| **77** | **UI/UX de jeu (au-delà de UIDisplay)** | **NORMALE** | *Game Dev* | Tu as une connaissance encyclopédique des UI de jeux (Persona 5, GoT, Elden Ring). Transformer cette analyse en création originale. |
+| **78** | **Animation basique (UE5 sequencer)** | **NORMALE** | *3D Art* | Pour des démos portfolio et des cinématiques. Pas besoin d'être animator, mais savoir poser des caméras et séquencer des animations. |
+| **79** | **Écriture créative (world building)** | **NORMALE** | *Game Dev* | Le concept Naruto x Monster Hunter x AoT a besoin d'un lore structuré. Pas un roman, mais des fiches de world building concises. |
+| **80** | **Comptabilité & finance personnelle** | **MOYENNE** | *Finance* | Comprendre tes flux : revenus - charges = net. Épargne de précaution (3-6 mois). Investissement (ETF, crypto si tu veux). Tu vises 10M EUR, commence par gérer 10K EUR. |
+| **81** | **Stratégie de visa Japon (PVT, travail, entrepreneur)** | **MOYENNE** | *Juridique* | PVT limité à 1 an, 18-30 ans. Tu as 25 ans, le temps presse. Visa travail nécessite un sponsor (studio japonais). Visa entrepreneur nécessite un business plan. Chaque option a des conditions différentes. |
+| **82** | **Keigo & japonais professionnel** | **NORMALE** | *Langue* | Au-delà du JLPT, le japonais business (keigo, email pro, réunion) est un univers à part. Essentiel si tu veux travailler dans un studio japonais. |
+| **83** | **Analyse de marché (studios cibles, budgets, cycles)** | **NORMALE** | *Business* | Savoir quand les studios recrutent (pré-production = env art), quels budgets ils ont, quels projets ils développent. Timing tes outreach avec leurs cycles. |
+| **84** | **Lecture rapide & synthèse** | **NORMALE** | *Développement* | Tu as une queue de livres qui grandit. Apprendre à lire un livre business en 2h (index, chapitres clés, notes) au lieu de 2 semaines. |
+| **85** | **Leadership & vision d'équipe** | **NORMALE** | *Management* | Si tu veux devenir directeur créatif (Principal), tu devras diriger des gens. Commencer par des collaborations 1-on-1 avant de viser une équipe. |
+| **86** | **Public speaking & présentations** | **NORMALE** | *Communication* | Pour les meetups, les conferences, les pitchs. Savoir présenter son travail devant un groupe est un multiplicateur de visibilité et de crédibilité. |
+
+**I. Outils & Systèmes (87-96)**
+
+*L'infrastructure qui multiplie ta productivité et ta résilience.*
+
+| **#** | **Compétence** | **Priorité** | **Catégorie** | **Pourquoi c'est crucial pour toi** |
+| --- | --- | --- | --- | --- |
+| **87** | **Automatisation workflows (scripts, batch processing)** | **NORMALE** | *Productivité* | Tu as déjà des scripts (JPEG converter, yt-dlp, audio-separator). Systématiser l'automatisation des tâches répétitives pour libérer du temps créatif. |
+| **88** | **IA comme accélérateur (pas comme béquille)** | **MOYENNE** | *Productivité* | Tu utilises Claude comme co-pilote, c'est bien. Mais l'IA pour la DA pure est un piège (ta propre règle). Utiliser l'IA pour les guides, la doc, le code, jamais pour le goût. |
+| **89** | **DaVinci Resolve pour le motion design portfolio** | **NORMALE** | *Vidéo* | Tu as validé le workflow DaVinci > code pour le motion design. Créer des showreels et breakdowns vidéo de qualité pro. |
+| **90** | **Notion comme système nerveux central** | **NORMALE** | *Productivité* | Tu l'utilises déjà mais ton système peut être simplifié. Moins de pages, plus de vues filtrées. Un dashboard unique avec les KPIs qui comptent. |
+| **91** | **Backup & disaster recovery** | **NORMALE** | *Productivité* | Tu travailles sur un PC unique. Un crash de disque = perte de tout. Backups automatiques (Backblaze, rsync vers NAS, GitHub). Non-négociable. |
+| **92** | **Maîtrise de l'IA générative pour accélérer le concept art** | **NORMALE** | *Tech Art* | Utiliser l'IA pour du concept art rapide (mood boards, variations de DA) avant de passer en 3D. Pas pour le résultat final, pour l'exploration. |
+| **93** | **Video content (YouTube breakdowns)** | **NORMALE** | *Marketing* | Les breakdowns vidéo sur YouTube sont un levier long terme pour la visibilité et les revenus passifs. Mais c'est un engagement temps important, Phase 2. |
+| **94** | **Santé mentale : thérapie ou coaching régulier** | **MOYENNE** | *Santé* | Tu as identifié des patterns (peur du rejet, blessure post-ArtFX, isolement). Un coach ou thérapeute peut accélérer le travail que tu fais déjà sur toi-même. |
+| **95** | **Sport structuré (programme de musculation)** | **NORMALE** | *Santé* | Tu as les exercices (tractions, dips, squats bulgares) mais pas de programme structuré avec progression. Une app (Strong, GZCL) ou un coach ponctuel. |
+| **96** | **Culture générale stratégique (pas passive)** | **NORMALE** | *Développement* | Tu consommes beaucoup (165 animes, 339 jeux, films, séries). La compétence c'est de transformer cette culture en avantage compétitif : références DA, pitchs, networking culturel. |
+
+**ANALYSE DES PATTERNS PROFONDS**
+
+**Pattern #1 : La procrastination productive**
+
+Tu ne procrastines pas en regardant Netflix. Tu procrastines en codant des outils, en structurant des GDD, en construisant des infrastructures pour un business qui n'existe pas encore. C'est bien plus dangereux parce que ça ressemble à du travail. La différence entre un side-project productif et de la procrastination déguisée : est-ce que ce que tu fais EN CE MOMENT génère un euro ou rapproche d'un premier client ? Si la réponse est non, c'est de l'évitement.
+
+**Pattern #2 : La blessure post-ArtFX**
+
+Tu es sorti d'école en 2023, plein milieu des licenciements massifs du jeu vidéo. Le timing était brutal et ce n'était pas ta faute. Mais cette expérience a créé une croyance : 'personne ne veut de moi'. Cette croyance est factuellement fausse en 2026 avec ton profil actuel (Houdini/UE5/VEX/VAT). Les Art Directors de 35 ans dans les studios ne savent pas et s'en fichent de ton parcours à ArtFX. Ils veulent voir un portfolio et un TJM.
+
+**Pattern #3 : L'oscillation ego/dépréciation**
+
+Tu oscilles entre 'je suis le génie qui va créer le jeu du siècle' et 'je suis blacklisté, personne ne veut de moi'. La réalité est banalement entre les deux : tu es un Technical Artist de 25 ans avec un skillset solide et 0 track record commercial. Ce n'est ni génial ni dramatique. C'est un point de départ. La compétence à développer : l'auto-évaluation lucide, sans ego ni auto-flagellation.
+
+**Pattern #4 : Le fossé théorie/action**
+
+Tu as lu Naval Ravikant, Alex Hormozi, The War of Art, Atomic Habits. Tu connais les modèles mentaux (80/20, Kaizen, First Principles, Inversion). Tu as documenté des dizaines de mantras et de règles. Mais ton tracker de prospection est à 0/30 messages. Le problème n'est pas le manque de connaissance, c'est le manque d'exécution. Chaque heure passée à écrire une nouvelle règle est une heure qui n'est pas passée à envoyer un message LinkedIn.
+
+**Pattern #5 : L'isolement comme zone de confort**
+
+Tu travailles seul depuis ta sortie d'école. Tes seules interactions sociales régulières sont familiales. L'absence de pairs crée une chambre d'écho où tes doutes s'amplifient et où personne ne te dit 'arrête de réfléchir, envoie le message'. Un coworking, un meetup, un Discord actif — n'importe quel contexte social régulier casserait cette boucle.
+
+**PLAN D'ACTION : LES 30 PROCHAINS JOURS**
+
+**Semaine 1 (31 mars – 6 avril) : FONDATIONS**
+
+OBJECTIF : Bayou publié + 5 premiers messages envoyés.
+
+**Compétences activées :** #1 (Prospection), #2 (Communication commerciale), #3 (Peur du rejet), #9 (Personal branding), #10 (Portfolio conversion), #11 (Focus), #12 (Ship > Perfect), #13 (Routine prospection).
+
+- Publier le Bayou sur ArtStation (même à 80%). Post LinkedIn EN avec visuel fort + 'Available for freelance'.
+- Créer profil Malt (photo, bio, TJM 350 EUR, portfolio).
+- Lister 20 studios cibles dans un Google Sheet.
+- Rédiger le template de message (40 mots max).
+- Envoyer 5 premiers messages LinkedIn.
+
+**Semaine 2 (7–13 avril) : VOLUME**
+
+OBJECTIF : 10 messages cumulés + 5 relances.
+
+**Compétences activées :** #5 (Pipeline CRM), #7 (Follow-up), #14 (Blocs 90/20 business), #17 (Anti-procrastination), #18 (Gestion du silence).
+
+- 5 nouveaux messages. Relancer les 5 premiers (message court + visuel).
+- Chercher les emails pro (Hunter.io). Envoyer 3 emails directs.
+- Mettre à jour le tracker chaque vendredi.
+
+**Semaine 3 (14–20 avril) : ITÉRATION**
+
+OBJECTIF : 20 messages cumulés + analyse des réponses.
+
+**Compétences activées :** #19 (Breakdowns visuels), #20 (Vitesse d'exécution), #27 (Anglais pro), #39 (Plateformes freelance).
+
+- Analyser réponses/non-réponses, ajuster le message.
+- Ajouter une deuxième pièce portfolio (breakdown grass system).
+- S'inscrire sur CGHero + freelance-informatique.fr.
+- Premier coworking ou meetup physique.
+
+**Semaine 4 (21–27 avril) : CLOSING**
+
+OBJECTIF : 30 messages + premier call si réponse positive.
+
+**Compétences activées :** #4 (Pricing), #6 (Devis/contrats), #8 (Closing), #30 (Networking physique), #32 (Discipline financière).
+
+- Premier call de qualification (Claude aide à préparer).
+- Préparer un devis type / conditions freelance.
+- Bilan du mois : combien envoyés, combien réponses, combien calls.
+- Recherche micro-entreprise / SASU.
+
+**CONCLUSION**
+
+Ce rapport contient 96 compétences mais la vérité est plus simple : tu as besoin de maîtriser UNE seule chose en ce moment. Envoyer un message à un être humain qui a un budget et un besoin, avec un lien vers ton travail.
+
+Tout le reste — les 95 autres compétences, les side-projects, les règles, les mantras, les modèles mentaux — est conditionné par cet acte unique. Le premier euro change tout. Il transforme l'hypothèse en preuve. Il transforme le doute en confiance. Il transforme le 'Technical Artist' théorique en freelance factuel.
+
+Tu as écrit dans tes valeurs : 'Le résultat est la seule preuve.' Ce rapport est un outil, pas un résultat. Le résultat, c'est le message que tu vas envoyer aujourd'hui.
+
+**Rappel ARC I :** *"L'ambition est légitime quand elle est corrélée au track record. Tu es exceptionnel si tu délivres."*
+
+— Fin du rapport —
+
+Généré le 31 mars 2026 par Claude (Anthropic)
