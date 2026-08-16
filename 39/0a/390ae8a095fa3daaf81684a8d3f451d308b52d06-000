@@ -1,0 +1,6 @@
+﻿Name
+Method 2 : We can set vector location and rotation with Rotate Vector
+Creating Basic IK and PV
+Correct the pole vector by adding primary axis or inverting it.
+Center of Gravity COG ⇒ IK for all bones
+Method 1 : We can Create PV with Null
