@@ -1,0 +1,187 @@
+# vid montage script pour auto search. llm
+
+Created: August 17, 2025 8:16 PM
+Update: August 22, 2025 6:29 PM
+status: Done
+
+ChatGPT search web, now automatic.
+
+Always typing /search is boring so I made a script that does it instantly. Automatically.
+
+Erase the friction between your question and the answer. Stay on the flow. The script handles the manual click or typing /search and does it for you.
+
+See how it works in 30 seconds. ⬇️
+
+#ChatGPT #Automation #Productivity #UX #UI.
+
+```jsx
+(function () {
+  const TYPE_DELAY_MS = 50, RETRY_MS = 2000, COOLDOWN_MS = 1000, WAIT_OPT_MS = 1500;
+  let lastRun = 0, lastFallbackTs = 0;
+
+  const visible = el => el && el.offsetParent && getComputedStyle(el).visibility !== "hidden";
+  const getComposer = () => Array.from(document.querySelectorAll('textarea, [contenteditable="true"]')).find(el => visible(el) && el.closest('form, [data-testid*="composer"]'));
+  const getText = el => el.value ?? el.textContent;
+  const isSearchActive = () => document.querySelector('button[aria-pressed="true"], [data-is-selected="true"][data-pill="true"]');
+
+  function setText(el, txt) {
+    el.focus();
+    if (el.value !== undefined) {
+      el.value = txt;
+      el.dispatchEvent(new InputEvent('input', { bubbles: true }));
+    } else {
+      document.execCommand('selectAll', false, null);
+      document.execCommand('insertText', false, txt);
+    }
+  }
+
+  function findSearchOption() {
+      const menus = Array.from(document.querySelectorAll('[data-radix-portal] [role="listbox"], [role="listbox"], [role="menu"]')).filter(visible);
+      if (!menus.length) return null;
+      const candidates = menus.flatMap(m => Array.from(m.querySelectorAll('[role="option"], [role="menuitem"], button'))).filter(el => visible(el) && !el.disabled);
+      return candidates.find(el => /search/i.test(el.textContent)) || candidates[0] || null;
+  }
+
+  function pressEnter(target) {
+    const now = Date.now();
+    if (now - lastFallbackTs < COOLDOWN_MS || getText(target).trim() !== '/search') return;
+    lastFallbackTs = now;
+    target.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true }));
+  }
+
+  function tryEnableSearch() {
+    if (Date.now() - lastRun < COOLDOWN_MS || isSearchActive()) return;
+    lastRun = Date.now();
+    
+    const ed = getComposer();
+    if (!ed) return;
+
+    const current = getText(ed).trim();
+    if (current && current !== '/search') return;
+    if (current !== '/search') setText(ed, '/search');
+
+    setTimeout(() => {
+      const t0 = performance.now();
+      (function loop() {
+        const opt = findSearchOption();
+        if (opt) {
+          opt.click();
+          setTimeout(() => { if (!isSearchActive()) pressEnter(ed); }, 100);
+        } else if (performance.now() - t0 < WAIT_OPT_MS) {
+          requestAnimationFrame(loop);
+        } else {
+          pressEnter(ed);
+        }
+      })();
+    }, TYPE_DELAY_MS);
+  }
+
+  setInterval(tryEnableSearch, RETRY_MS);
+})();
+```
+
+# script 30s (storyboard + texte écran)
+
+- 0:00–0:02 — hook
+    
+    visuel: gros plan curseur → « /search » qui s’auto-active
+    
+    texte: « auto /search en ~100 ms »
+    
+    sfx: clic sec
+    
+- 0:02–0:06 — le problème
+    
+    visuel: interface chatgpt sans recherche → cut rapide
+    
+    texte: « activer la recherche automatiquement »
+    
+    sfx: whoosh court
+    
+- 0:06–0:10 — v3 = vitesse
+    
+    visuel: 3 bullets qui pop
+    
+    texte: « type-delay 50 ms • check 100 ms • cooldown 1 s »
+    
+- 0:10–0:16 — démo
+    
+    visuel: capture → « /search » tapé → menu trouvé → clic → actif
+    
+    texte: « clic + vérif + fallback »
+    
+- 0:16–0:20 — robustesse/sécurité
+    
+    visuel: extrait code mis en valeur (surbrillance)
+    
+    texte: « safeClick • pressEnterOnce »
+    
+- 0:20–0:25 — bénéfice
+    
+    visuel: split avant/après (à gauche manuel, à droite auto)
+    
+    texte: « zéro friction, focus total »
+    
+- 0:25–0:30 — outro (branding + asset)
+    
+    visuel: carte de fin minimaliste
+    
+    texte haut: « technical artist | ue5 environments, tools, ui & design »
+    
+    texte bas: « @mhzenray • auto_search_v3_teaser_000 »
+    
+    sfx: ding doux + fade out
+    
+
+# montage davinci (rapide)
+
+1. importer 3 sources:
+- captures écran (avant / après)
+- png du code (ou court clip écran)
+- votre logo/handle
+1. timeline
+- 1920×1080, 30 fps, durée 00:30:00
+- caler les beats (marqueurs) sur les sfx
+1. titres & graphismes (simples)
+- utiliser **fusion text+** pour les lower-third et bullets (inspecteur: police, tracking, ombre légère). [Blackmagic Design](https://www.blackmagicdesign.com/products/davinciresolve/fusion?utm_source=chatgpt.com)
+- animer l’apparition (opacity/position ou easing léger)
+- pour les plans fixes, activer **dynamic zoom** (ken burns subtil) pour donner du mouvement sans keyframes. [Blackmagic Design](https://www.blackmagicdesign.com/products/davinciresolve/edit?utm_source=chatgpt.com)
+1. ajustements globaux
+- poser un **adjustment clip** au-dessus pour uniformiser color/timing de texte; tout effet appliqué dessus touche les clips en dessous (pratique pour un look unique). [Blackmagic Design Documents](https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-17-Beginners-Guide.pdf?utm_source=chatgpt.com)
+1. audio
+- bgm « pulse » très léger (-20 dBFS env.), sfx typing/click/whoosh
+- voix off (optionnelle) → vous avez déjà un preset voix –16 LUFS; gardez-le
+1. export
+- **quick export → h.264 master** (mp4), 1080p, 30 fps; audio aac 48 kHz 320 kbps. [Blackmagic Design Documents](https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-18-Editors-Guide.pdf?_v=1722829607000&utm_source=chatgpt.com)
+
+# texte écran (copier/coller)
+
+- hook: « auto /search en ~100 ms »
+- problème: « activer la recherche automatiquement »
+- v3: « type-delay 50 ms • check 100 ms • cooldown 1 s »
+- démo: « clic + vérif + fallback »
+- bénéfice: « zéro friction, focus total »
+- outro: « technical artist | ue5 environments, tools, ui & design » / « @mhzenray • auto_search_v3_teaser_000 »
+
+# fiche asset (à coller dans notion)
+
+- **title**: auto-search v3 — 30s teaser
+- **slug / filename**: `auto_search_v3_teaser_000`
+- **type**: video
+- **owner**: matthieu huguet | zenray (@mhzenray)
+- **brand line**: technical artist | ue5 environments, tools, ui & design
+- **status**: ready
+- **duration**: 00:30
+- **aspect**: 16:9 (1080p)
+- **tags**: chatgpt, arc boost, userscript, automation, demo
+- **description**: « démonstration rapide du script “chatgpt — auto /search (arc boost) — v3 rapide” : clic + vérification + fallback, réactivité ~100 ms. »
+- **deliverables**: mp4 (h.264), wav mix master (si voix), srt (facultatif)
+- **cta (post)**: « activer la recherche, gagner du temps, rester focus. code en description. »
+
+# fichiers à produire
+
+- master: `auto_search_v3_teaser_000.mp4`
+- project drp (optionnel): `auto_search_v3_teaser_000.drp`
+- sfx pack (optionnel): `auto_search_v3_teaser_sfx_000.zip`
+
+si tu veux, je peux te générer le texte voix-off ultra court (10–12s) et le sous-titre srt pour linkedin.
