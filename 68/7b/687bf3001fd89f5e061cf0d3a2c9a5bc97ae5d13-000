@@ -1,0 +1,115 @@
+#include <QApplication>
+#include <QScreen>
+#include <QWidget>
+#include <QPainter>
+#include <QMouseEvent>
+#include <QDateTime>
+#include <QDir>
+#include <QClipboard>
+
+class ScreenCapture : public QWidget {
+    QPoint startPoint, endPoint;
+    bool isSelecting = false;
+
+public:
+    ScreenCapture() {
+        setWindowFlags(Qt::Window | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint);
+        setAttribute(Qt::WA_TranslucentBackground);
+        setCursor(Qt::CrossCursor);
+        showFullScreen();
+    }
+
+protected:
+    void paintEvent(QPaintEvent*) override {
+        QPainter painter(this);
+
+        // Assombrir tout l'écran
+        painter.setBrush(QColor(0, 0, 0, 100));
+        painter.setPen(Qt::NoPen);
+        painter.drawRect(rect());
+
+        if (isSelecting) {
+            QRect selectionRect = QRect(startPoint, endPoint).normalized();
+
+            // Rendre la zone sélectionnée lumineuse (alpha normal)
+            painter.setCompositionMode(QPainter::CompositionMode_Source);
+            painter.setBrush(Qt::transparent); // Zone claire
+            painter.drawRect(selectionRect);
+
+            // Dessiner la bordure blanche autour de la zone sélectionnée
+            painter.setCompositionMode(QPainter::CompositionMode_SourceOver);
+            painter.setPen(QPen(Qt::white, 2));
+            painter.setBrush(Qt::NoBrush);
+            painter.drawRect(selectionRect);
+        }
+    }
+
+    void mousePressEvent(QMouseEvent* e) override {
+        if (e->button() == Qt::LeftButton) {
+            startPoint = e->pos();
+            endPoint = startPoint;
+            isSelecting = true;
+            update();
+        }
+    }
+
+    void mouseMoveEvent(QMouseEvent* e) override {
+        if (isSelecting) {
+            endPoint = e->pos();
+            update();
+        }
+    }
+
+    void mouseReleaseEvent(QMouseEvent* e) override {
+        if (isSelecting && e->button() == Qt::LeftButton) {
+            isSelecting = false;
+            QRect selection = QRect(mapToGlobal(startPoint), mapToGlobal(endPoint)).normalized();
+            hide();
+            saveScreen(selection);
+            close();
+        }
+    }
+
+private:
+    void saveScreen(const QRect& selection) {
+        QScreen* screen = QGuiApplication::primaryScreen();
+        if (!screen) return;
+
+        // Capture l'image
+        QPixmap pixmap = screen->grabWindow(0, selection.x(), selection.y(), selection.width(), selection.height());
+
+        // Stocker dans le presse-papiers
+        QClipboard* clipboard = QGuiApplication::clipboard();
+        clipboard->setPixmap(pixmap); // Copie l'image dans le presse-papiers
+
+        // Chemin pour sauvegarder en JPEG
+        QString baseFilePath = QDir::homePath() + "/Desktop/screenshot_" +
+            QDateTime::currentDateTime().toString("yyyyMMdd_HHmmss");
+        QString jpegFilePath = baseFilePath + ".jpg";
+
+        // Paramètres de compression
+        int quality = 100; // Commence à la qualité maximale
+        const qint64 maxSize = 1024 * 1024; // Taille maximale de 1 Mo
+
+        do {
+            // Sauvegarde en JPEG avec la qualité actuelle
+            pixmap.save(jpegFilePath, "JPEG", quality);
+
+            // Vérifie la taille du fichier
+            QFileInfo fileInfo(jpegFilePath);
+            if (fileInfo.size() <= maxSize) break; // Taille acceptable
+
+            // Réduit la qualité
+            quality /= 2;
+        } while (quality > 10); // Ne descend pas en dessous de 10% de qualité
+    }
+
+
+};
+
+
+int main(int argc, char* argv[]) {
+    QApplication app(argc, argv);
+    ScreenCapture captureTool;
+    return app.exec();
+}
