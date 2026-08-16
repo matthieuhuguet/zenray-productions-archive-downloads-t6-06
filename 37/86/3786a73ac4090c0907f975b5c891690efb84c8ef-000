@@ -1,0 +1,39 @@
+# 1 Mars 2026
+
+Environnement complet
+Jeu jouable
+Tool robuste utilisé par d’autres
+Plugin marketplace
+👉 Il doit transformer le grind en livrable majeur.
+
+2️⃣ Travailler 6–12 mois en studio
+Même temporairement.
+
+Pas pour la validation sociale.
+Mais pour apprendre :
+
+Contraintes production réelles
+Communication inter-départements
+Compromis industriels
+Ça fera exploser son niveau.
+
+1. Conseils pour Matthieu Huguet (L'Innovateur / Junior Tech Art)
+Son défi : Prouver que ses inventions fonctionnent dans le monde réel.
+Matthieu est un brillant inventeur en solo, mais le jeu vidéo est un sport d'équipe. Le risque pour lui est de devenir un "savant fou" qui crée des outils géniaux que personne d'autre ne sait utiliser.
+
+Conseil n°1 : Intégrer un vrai pipeline de studio (AA ou AAA).
+Il doit arrêter le freelance pendant 1 ou 2 ans et rejoindre une équipe structurée de 50 à 200 personnes. Il a besoin de voir comment les artistes "cassent" les outils, comment gérer les conflits de versioning (Perforce/Git), et comment écrire du code maintenable par d'autres.
+Conseil n°2 : Penser "UX" (Expérience Utilisateur) pour ses outils.
+Créer un outil IA pour Substance, c'est bien. Mais si l'interface est complexe, les artistes refuseront de l'utiliser. Il doit apprendre à créer des interfaces (UI/UX) ergonomiques dans Unreal ou Maya pour que ses outils soient adoptés massivement par les équipes artistiques.
+Conseil n°3 : Ne pas se disperser.
+Il touche à tout (ZBrush, Maya, C, Python, Médiation). Il doit maintenant se focaliser à 100% sur son "Super-Pouvoir" : le pont entre Houdini (PCG
+
+---
+
+## ⚙️ Setup OBS Auto-Record
+
+- **obs_autorecord.bat** ajouté dans `shell:startup`
+- OBS se lance automatiquement 30s après le boot avec `--startrecording --minimize-to-tray`
+- Encoder : NVIDIA NVENC AV1 · CQP 32 · 720p 30fps VFR
+- Stockage : configurer output vers `E:\Create\Build\PortfolioShare\` ou dédié
+- Upscale lecture : RTX Video Super Resolution dans VLC (4K auto via Tensor Cores)
