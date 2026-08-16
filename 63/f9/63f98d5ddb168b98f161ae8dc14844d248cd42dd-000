@@ -1,0 +1,11 @@
+# AV1 et AVIF OPUS OpenMediaConsortium
+
+Created: January 12, 2025 1:47 PM
+Update: January 12, 2025 4:28 PM
+
+### **Recommandations Générales :**
+
+1. **Web Images:** AVIF > WebP > PNG/JPEG.
+2. **Streaming Vidéo:** AV1 > VP9 > H.264.
+3. **Audio Streaming:** Opus > AAC > MP3.
+4. **Archivage/Qualité Maximale:** FLAC pour audio, TIFF pour images.
