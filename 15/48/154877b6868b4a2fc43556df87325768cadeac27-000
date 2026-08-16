@@ -1,0 +1,13 @@
+# Callable depuis Blueprint
+
+Created: December 29, 2024 12:01 AM
+
+Unreal Engine permet d'exposer des fonctions, variables, et événements écrits en C++ directement dans Blueprint en utilisant des macros comme :
+
+| **Macro** | **Utilisation** |
+| --- | --- |
+| **`UFUNCTION`** | Expose une fonction aux Blueprints. |
+| **`UPROPERTY`** | Expose une variable aux Blueprints. |
+| **`UCLASS`** | Rend une classe accessible et extensible dans Blueprint. |
+| **`BlueprintCallable`** | Permet d'appeler une fonction depuis Blueprint. |
+| **`BlueprintPure`** | Permet d’appeler une fonction sans modifier l’état (lecture seule). |
