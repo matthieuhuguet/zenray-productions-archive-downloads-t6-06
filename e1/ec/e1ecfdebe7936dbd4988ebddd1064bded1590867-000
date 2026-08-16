@@ -1,0 +1,32 @@
+# Plan pour 27/11/2024 Becoming a star today with ChatGPT !
+
+Created: April 4, 2025 3:22 PM
+
+### **Plan de travail sur 8 heures :**
+
+- **Heure 1-2 : Modélisation détaillée dans Maya**
+    - Affinez vos modèles principaux.
+    - Préparez-les pour l'exportation vers ZBrush si nécessaire.
+- **Heure 3 : Détails dans ZBrush**
+    - Ajoutez des détails fins aux modèles organiques.
+    - Exportez les modèles high-poly.
+- **Heure 4 : Dépliage UV dans Maya**
+    - Créez des UVs propres pour vos modèles low-poly.
+    - Vérifiez les UVs avec un checker de texture.
+- **Heure 5 : Baking et Texturing dans Substance Painter**
+    - Importez les modèles low-poly et high-poly.
+    - Réalisez le baking des maps nécessaires.
+    - Appliquez des matériaux et textures.
+    - Utilisez des smart materials pour gagner du temps.
+    - Faites des ajustements pour correspondre au style artistique.
+- **Heure 8 : Exportation et intégration dans Unreal Engine**
+    - Exportez les textures avec les presets Unreal.
+    - Importez les modèles et textures dans Unreal.
+    - Configurez les matériaux et placez les assets dans la scène.
+
+- **Conseils pour optimiser votre temps**
+    - **Limitez-vous aux outils que vous maîtrisez** : Étant donné le temps limité, concentrez-vous sur Maya, ZBrush et Substance Painter, où vous avez le plus d'expérience.
+    - **Automatisez lorsque possible** : Utilisez des scripts ou des actions prédéfinies pour accélérer des tâches répétitives dans Maya ou Photoshop.
+    - **Évitez les perfectionnements excessifs** : Visez un niveau de détail acceptable pour une première version, vous pourrez toujours affiner plus tard.
+    - **Gestion du temps** : Allouez des blocs de temps spécifiques à chaque étape et essayez de les respecter (par exemple, 2 heures pour la modélisation détaillée, 1 heure pour les UVs, etc.).
+    -
