@@ -1,0 +1,20 @@
+﻿Name
+Don’t Forgot The Library
+Ok J’en suis à la partie 6.
+Shift + D Disable Node
+"Materials Edit Height Scale Factor 10-20 "
+Exemple avec Blend
+"Juste Multiply "
+Shift + Click Reattach all the nodes already pluged
+Ctrl Click to Duplicate Node Connection
+Space Bar to get tiling
+Ask yourself what is the simplest element
+Every Complex Materials is Made of Very Simple Elements : Avoid the Blank Syndrom.
+Create Output Nodes from the BasicMaterials Nodes. Right Click Create.
+We usually Start by building the height before all
+Drag and Drop Right Click Works Directly with nodes like base parameters.
+Ctrl Shift + Right Click To rotate light + Right Click Drag on the cube = Output Map on Cube
+Going from Large to medium to small in Designer
+Grey Connections = GrayScaleNodes | Yellow Connexions = ColorNodes
+Designer vs Painter
+Practice : Ask yourself how these materials are constructed.
