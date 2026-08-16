@@ -1,0 +1,11 @@
+# Curvature Smooth
+
+Created: April 4, 2025 3:23 PM
+
+- Elle identifie où la surface de ton objet est **convexe (bosses)** ou **concave (creux)**.
+- Elle génère une carte (ou un effet) qui met en évidence ces zones.
+- La **version "Smooth"** lisse les transitions pour éviter des changements brusques ou des artefacts entre les zones convexes et concaves.
+
+**Curvature Smooth** aide à identifier et à lisser les zones importantes de la géométrie pour un rendu plus propre et naturel sur les textures !
+
+![image.png](Curvature%20Smooth/image.png)
