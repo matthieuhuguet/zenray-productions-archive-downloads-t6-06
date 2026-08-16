@@ -1,0 +1,4 @@
+# 3. Travailler avec des Blueprints pour prototyper
+• Les développeurs expérimentés utilisent Blueprints pour créer rapidement des fonctionnalités ou tester des idées.
+• Ensuite, ils transforment les Blueprints en C++ uniquement lorsqu’ils sont sûrs de ce qu’ils veulent.
+• Avantage : Prototyper avec Blueprints évite de compiler fréquemment pendant la phase de test.
