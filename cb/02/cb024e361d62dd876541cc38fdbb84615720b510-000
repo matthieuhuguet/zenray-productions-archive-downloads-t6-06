@@ -1,0 +1,16 @@
+# H.265 le meilleur format en 2024
+
+Created: November 28, 2024 12:27 PM
+Update: November 28, 2024 1:27 PM
+
+![image.png](H%20265%20le%20meilleur%20format%20en%202024/image.png)
+
+AV1 est super lent à encoder.
+
+CLI :
+
+ffmpeg -i I:/SSD_Crucial_Download/BlueGiant.mkv -c:v hevc_nvenc -b:v 15M -maxrate 33.8M -minrate 5M -bufsize 25.35M -preset p2 -c:a copy I:/SSD_Crucial_Download/BlueGiant_HEVC_NVENC_VBR.mkv
+
+preset 1 = rapide et p8 super lent.
+
+Plus c’est lent plus ça respecte les indications.
