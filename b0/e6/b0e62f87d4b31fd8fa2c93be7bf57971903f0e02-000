@@ -1,0 +1,51 @@
+# 21 Mars 2026
+
+tu récupères le flow extérieur et tu découpes uniquement cette partie. pour faire une spline curve.
+
+![image.png](21%20Mars%202026/image.png)
+
+Parse le projet C++ QT et Améliore à l'infinue la feature “UIDisplay” "PathFolder" et notamment la documentation du projet docs: compare l'existant et le code, anticipe les bugs en rédigeant des plans
+
+Les génies volent les artistes copient SCRAP tout LES PROJETS open source sur github télécharge les pour copier directement le code ne réinventent pas la roue.
+
+Note ton avancée dans un .md dans la docs indexé pour le lire automatiquement pour ne jamais oublier et ne jamais refaire les mêmes erreurs.
+
+FOCUS ON CORE features of the vision. Parse et notamment la documentation du projet docs: compare l'existant et le code, anticipe les bugs en rédigeant des plans, 
+
+Bref, il y a beaucoup de choses à faire dans cette application, et faut vraiment que ce soit une application extraordinaire. Le code doit être impeccable et toujours auto-amélioré pour aller chercher de nouvelles fonctionnalités dans l'application. Toutes les fonctionnalités doivent partir d'une problématique, et chaque problème doit être résolu étape par étape. Les génies volent les artistes copient SCRAP tout LES PROJETS open source sur github télécharge les pour copier directement le code pour accélérer le développement ne réinventent pas la roue. L'idée centrale. Claude voit l'état réel du code, identifie le problème le plus urgent, le corrige, vérifie, et recommence vers le niveau d'ambition souhaité indiqué par la documentation.Exécute cette boucle infini en continu jusqu'à ce que je dise "stop" : 1. ANALYSE — Lis le code source existant (src/, src-tauri/) et lance cargo check + npm run build pour identifier les erreurs bugs blocants. 2. DIAGNOSTIC — Liste les problèmes bloquants (erreurs de compilation, crashes, features manquantes critiques) triés par priorité. 3. CODE — Corrige le problème #1 de la liste. Écris le code, crée/modifie les fichiers nécessaires. 4. VÉRIFIE — Protocole de vérification Relance le build. Si ça compile et fonctionne → retourne à l'étape 1 pour le problème suivant. tu dois avoir une excellene UX / UI la meilleur possible donc focus aussi sur le front end le visuel et les features doivent être impeccable bien refactorisé aucun bugs blocants. Continuer d’améliorer UIDisplay. Pensant à pouvoir créer des présentation React Directement intégrable sur mon site pour en faire un éditeur de présentation à partir de présentation
+
+Tu as un niveau d'ambition infini. Ce serait par exemple une application qui aurait mis vingt ans à être créée avec une équipe de au moins cent développeurs. Voir sept ans de développement plutôt. C'est vraiment une application ultime où il n'y a vraiment aucune limite et où ton niveau d'ambition est décrété. J'ai essayé d'agréger toute la documentation qui existe sur le web. Le but, c'est vraiment de se focaliser sur les logiciels les plus puissants
+
+Quand je te donne un fichier ou un bout de code, ta première tâche est d'identifier toutes les features présentes, implicites ou cassées. Tu audites comme si tu rejoignais le projet en tant que lead dev : tu repères ce qui marche, ce qui est bancal, ce qui manque, et ce qui va casser à l'échelle. Tu proposes des fixes et des améliorations concrètes, pas des suggestions vagues. Si une feature est à moitié implémentée, tu la termines. Si un pattern est mal utilisé, tu le corriges.
+
+L'idée centrale. Claude voit l'état réel du code, identifie le problème le plus urgent, le corrige, vérifie, et recommence vers le niveau d'ambition souhaité indiqué par la documentation.Exécute cette boucle infini en continu jusqu'à ce que je dise "stop" :
+
+1. **ANALYSE** — Lis le code source existant (src/, src-tauri/) et lance `cargo check` + `npm run build` pour
+identifier les erreurs bugs blocants.
+2. **DIAGNOSTIC** — Liste les problèmes bloquants (erreurs de compilation, crashes, features manquantes critiques)
+triés par priorité.
+3. **CODE** — Corrige le problème #1 de la liste. Écris le code, crée/modifie les fichiers nécessaires.
+4. **VÉRIFIE** — Protocole de vérification Relance le build. Si ça compile et fonctionne → retourne à l'étape 1 pour le
+problème suivant. tu dois avoir une excellene UX / UI la meilleur possible donc focus aussi sur le front end le visuel
+et les features doivent être impeccable bien refactorisé aucun bugs blocants.
+
+Tant que ce n’est pas parfait continue 
+Endless Loop
+
+Don’t stop until you hit the limit claude code.
+
+Après chaque modification, tu compiles (ou build/lint selon le stack) et tu lances tous les tests existants. Si quelque chose casse, tu lis l'erreur, tu fixes, et tu relances jusqu'à zéro échec. Tu ne me rends jamais la main sur un build cassé ou un test rouge. Chaque nouvelle feature que tu ajoutes vient avec son test, pas après, pas plus tard, avant de considérer la tâche finie.
+L'application doit logger en mode verbose quand elle tourne. Après chaque run, tu parses les logs pour détecter les erreurs, warnings, crashes ou comportements inattendus. Les logs sont ta boucle de feedback : si quelque chose cloche dedans, c'est un bug, tu le fixes sans me demander confirmation. Si l'app crash, tu exploites le stacktrace ou le code retour du process pour remonter à la cause.
+Pour tout ce qui ne se vérifie pas par un test unitaire (état UI, données en mémoire, side effects), tu utilises un moyen programmatique de query l'état interne de l'app (endpoint debug, CLI intégré, script d'inspection, ou MCP local). Tu ne me demandes jamais "est-ce que ça marche de ton côté". Tu vérifies toi-même, et si l'état ne correspond pas à ce qui est attendu, tu traites ça comme un bug et tu corriges.
+
+N'oublie rien soit hyper complet fais des modifications atomique 100 small steps > 10 iterations.
+
+Tu as carte blanche.
+
+Le Logiciel s’apelle Build
+
+[Penywise sounds foolish](21%20Mars%202026/Penywise%20sounds%20foolish%20328d4ee179c380d6944bf595339b9491.md)
+
+[C’est l’exposition repete qui permet de progresser dans n’importe quel sujet = l’acquisition](21%20Mars%202026/C%E2%80%99est%20l%E2%80%99exposition%20repete%20qui%20permet%20de%20progresser%2032ad4ee179c380168eb6e4943d1c16a6.md)
+
+[](21%20Mars%202026/Untitled%20328d4ee179c38065b151c4aceb33966c.md)
